@@ -81,6 +81,15 @@ with final.pkgs.lib; let
     # (mkNvimPlugin inputs.wf-nvim "wf.nvim") # (example) keymap hints | https://github.com/Cassin01/wf.nvim
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
+
+    # ^ Mason and related things
+    mason-nvim
+    mason-lspconfig-nvim
+    nvim-dap
+    nvim-dap-ui
+    telescope-dap-nvim
+    nvim-lint
+    formatter-nvim
   ];
 
   extraPackages = with pkgs; [
