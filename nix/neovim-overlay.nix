@@ -91,6 +91,9 @@ with final.pkgs.lib; let
     telescope-dap-nvim
     nvim-lint
     formatter-nvim
+
+    # ^ theme
+    catppuccin-nvim
   ];
 
   extraPackages = with pkgs; [
