@@ -84,6 +84,7 @@ with final.pkgs.lib; let
 
     # ^ Mason and related things
     mason-nvim
+    nvim-lspconfig
     mason-lspconfig-nvim
     nvim-dap
     nvim-dap-ui
