@@ -70,6 +70,8 @@ with final.pkgs.lib; let
     # ^ navigation/editing enhancement plugins
     # Useful utilities
     nvim-unception # Prevent nested neovim sessions | nvim-unception
+    noice-nvim
+    nvim-notify
     # ^ Useful utilities
     # libraries that other plugins depend on
     sqlite-lua
@@ -82,7 +84,7 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
 
-    # ^ Mason and related things
+    # Mason and related things
     mason-nvim
     nvim-lspconfig
     mason-lspconfig-nvim
@@ -91,9 +93,11 @@ with final.pkgs.lib; let
     telescope-dap-nvim
     nvim-lint
     formatter-nvim
+    # ^ Mason and related things
 
-    # ^ theme
+    # theme
     catppuccin-nvim
+    # ^ theme
   ];
 
   extraPackages = with pkgs; [
