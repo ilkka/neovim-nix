@@ -14,8 +14,30 @@ require('noice').setup({
     }
   },
   presets = {
-    command_palette = true,
     long_message_to_split = true,
     lsp_doc_border = true
+  },
+  views = {
+    cmdline_popup = {
+      position = {
+        row = 5,
+        col = "50%"
+      }
+    },
+    popupmenu = {
+      relative = "editor",
+      position = {
+        row = 8,
+        col = "50%"
+      },
+      size = {
+        width = 60,
+        height = 10
+      },
+      border = {
+        style = "rounded",
+        padding = { 0, 1 }
+      },
+    }
   }
 })
