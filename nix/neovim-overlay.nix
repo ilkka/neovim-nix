@@ -95,6 +95,9 @@ with final.pkgs.lib; let
     formatter-nvim
     # ^ Mason and related things
 
+    # oil file manager
+    oil-nvim
+
     # theme
     catppuccin-nvim
     # ^ theme
