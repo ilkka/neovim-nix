@@ -71,6 +71,7 @@ with final.pkgs.lib; let
     # Useful utilities
     nvim-unception # Prevent nested neovim sessions | nvim-unception
     noice-nvim
+    nui-nvim
     nvim-notify
     # ^ Useful utilities
     # libraries that other plugins depend on
